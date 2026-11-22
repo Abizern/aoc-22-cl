@@ -51,30 +51,30 @@ In the REPL run =(ql:quickload "aoc-22")=, open the day's file, compile it with 
 ** Progress
 Solutions in this repository
 
-|    |  2022 |
-|----+-------|
-|  1 | ⭐️⭐️ |
-|  2 |       |
-|  3 |       |
-|  4 |       |
-|  5 |       |
-|  6 |       |
-|  7 |       |
-|  8 |       |
-|  9 |       |
-| 10 |       |
-| 11 |       |
-| 12 |       |
-| 13 |       |
-| 14 |       |
-| 15 |       |
-| 16 |       |
-| 17 |       |
-| 18 |       |
-| 19 |       |
-| 20 |       |
-| 21 |       |
-| 22 |       |
-| 23 |       |
-| 24 |       |
-| 25 |       |
+| Day | Title                   | Notes                                      | Stars |
+|-----+-------------------------+--------------------------------------------+-------|
+|   1 | Calorie Counting        | Just collect and add terms.                | ⭐️⭐️ |
+|   2 | Rock Paper Scissors     | Direct translation of scoring. Good enough | ⭐️⭐️ |
+|   3 | Rucksack Reorganization | just collect transform and loop through    | ⭐️⭐️ |
+|   4 |                         |                                            |       |
+|   5 |                         |                                            |       |
+|   6 |                         |                                            |       |
+|   7 |                         |                                            |       |
+|   8 |                         |                                            |       |
+|   9 |                         |                                            |       |
+|  10 |                         |                                            |       |
+|  11 |                         |                                            |       |
+|  12 |                         |                                            |       |
+|  13 |                         |                                            |       |
+|  14 |                         |                                            |       |
+|  15 |                         |                                            |       |
+|  16 |                         |                                            |       |
+|  17 |                         |                                            |       |
+|  18 |                         |                                            |       |
+|  19 |                         |                                            |       |
+|  20 |                         |                                            |       |
+|  21 |                         |                                            |       |
+|  22 |                         |                                            |       |
+|  23 |                         |                                            |       |
+|  24 |                         |                                            |       |
+|  25 |                         |                                            |       |
