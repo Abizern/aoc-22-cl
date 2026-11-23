@@ -31,23 +31,14 @@
                     (all-matches-as-strings "\\d+" line)))
           (split "\\n" str)))
 
-(defun move-by-crate (stacks move)
-  (destructuring-bind (cnt source-i dest-i) move
-    (let* ((source (gethash source-i stacks))
-           (dest (gethash dest-i stacks))
-           (moved (reverse (loop repeat cnt
-                                 collect (pop source)))))
-      (setf (gethash source-i stacks) source
-            (gethash dest-i stacks) (append moved dest)))))
-
-(defun move-by-stack (stacks move)
+(defun move-stacks (stacks move &key by-crate)
   (destructuring-bind (cnt source-i dest-i) move
     (let* ((source (gethash source-i stacks))
            (dest (gethash dest-i stacks))
            (moved (loop repeat cnt
                         collect (pop source))))
       (setf (gethash source-i stacks) source
-            (gethash dest-i stacks) (append moved dest)))))
+            (gethash dest-i stacks) (append (if by-crate (reverse moved) moved) dest)))))
 
 (defun tops-of-stack (stack)
   (let* ((keys (hash-table-keys stack))
@@ -66,14 +57,14 @@
 (defun part1 (&optional (input (parse-input (read-input))))
   (destructuring-bind (table moves) input
     (loop for move in moves
-          do (move-by-crate table move))
+          do (move-stacks table move :by-crate t))
     (tops-of-stack table)))
 
 ;; => FGLQJCMBD
 (defun part2 (&optional (input (parse-input (read-input))))
   (destructuring-bind (table moves) input
     (loop for move in moves
-          do (move-by-stack table move))
+          do (move-stacks table move :by-crate nil))
     (tops-of-stack table)))
 
 (defparameter *example*
