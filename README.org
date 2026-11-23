@@ -58,7 +58,7 @@ Solutions in this repository
 |   3 | Rucksack Reorganization | just collect transform and loop through                   | ⭐️⭐️ |
 |   4 | Camp Cleanup            | Another collect, transform and count                      | ⭐️⭐️ |
 |   5 | Supply Stacks           | Once parsing is handled, just slicing and combining lists | ⭐️⭐️ |
-|   6 |                         |                                                           |       |
+|   6 | Tuning Trouble          | Run through subsequences and find unique substring        | ⭐️⭐️ |
 |   7 |                         |                                                           |       |
 |   8 |                         |                                                           |       |
 |   9 |                         |                                                           |       |
