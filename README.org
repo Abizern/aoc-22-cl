@@ -61,7 +61,7 @@ Solutions in this repository
 |   6 | Tuning Trouble          | Run through subsequences and find unique substring        | ⭐️⭐️ |
 |   7 | No Space Left On Device | Make a tree structure and process recursively.            | ⭐️⭐️ |
 |   8 | Treetop Tree House      | Pull the data in a grid and then run rows and columns     | ⭐️⭐️ |
-|   9 |                         |                                                           |       |
+|   9 | Rope Bridge             | "Snake-like" simulation. each knot follows the one ahead  | ⭐️⭐️ |
 |  10 |                         |                                                           |       |
 |  11 |                         |                                                           |       |
 |  12 |                         |                                                           |       |
