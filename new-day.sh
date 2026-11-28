@@ -6,8 +6,8 @@ if [[ $# -ne 1 ]]; then
   exit 1
 fi
 
-if ! [[ $1 =~ ^[0-9]+$ ]] || (( 10#$1 < 1 || 10#$1 > 12 )); then
-  echo "Error: day number must be between 1 and 12" >&2
+if ! [[ $1 =~ ^[0-9]+$ ]] || (( 10#$1 < 1 || 10#$1 > 25 )); then
+  echo "Error: day number must be between 1 and 25" >&2
   exit 1
 fi
 
