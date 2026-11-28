@@ -41,4 +41,9 @@
 
 ;; => 21614
 (defun part2 (&optional (pairs (parse-packets (read-input))))
-  pairs)
+  (let* ((div1 '((2)))
+         (div2 '((6)))
+         (packets (list* div1 div2 (loop for (l r) in pairs collect l collect r)))
+         (sorted (sort packets (lambda (a b) (minusp (compare a b))))))
+    (* (1+ (position div1 sorted :test #'equal))
+       (1+ (position div2 sorted :test #'equal)))))

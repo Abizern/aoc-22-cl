@@ -65,7 +65,7 @@ Solutions in this repository
 |  10 | Cathode-Ray Tube        | Process a list then then sample it and draw the CRT screen | ⭐️⭐️ |
 |  11 | Monkey in the Middle    | Simulation. Numerical trick to prevent growth of integers  | ⭐️⭐️ |
 |  12 | Hill Climbing Algorithm | BFS in reverse from target to source.                      | ⭐️⭐️ |
-|  13 |                         |                                                            |       |
+|  13 | Distress Signal         | Read packets as lisp lists, use custom compare methods.    | ⭐️⭐️ |
 |  14 |                         |                                                            |       |
 |  15 |                         |                                                            |       |
 |  16 |                         |                                                            |       |
