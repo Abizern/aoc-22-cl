@@ -64,7 +64,7 @@ Solutions in this repository
 |   9 | Rope Bridge             | "Snake-like" simulation. each knot follows the one ahead   | ⭐️⭐️ |
 |  10 | Cathode-Ray Tube        | Process a list then then sample it and draw the CRT screen | ⭐️⭐️ |
 |  11 | Monkey in the Middle    | Simulation. Numerical trick to prevent growth of integers  | ⭐️⭐️ |
-|  12 |                         |                                                            |       |
+|  12 | Hill Climbing Algorithm | BFS in reverse from target to source.                      | ⭐️⭐️ |
 |  13 |                         |                                                            |       |
 |  14 |                         |                                                            |       |
 |  15 |                         |                                                            |       |
